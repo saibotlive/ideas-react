@@ -2,7 +2,7 @@ import actionType from '../constants/action-types';
 
 export const addNewIdea = () => {
     return {
-        type: actionType.ADD_NEW_IDEAxw
+        type: actionType.ADD_NEW_IDEA
     }
 };
 
