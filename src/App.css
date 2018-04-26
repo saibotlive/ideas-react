@@ -1,0 +1,92 @@
+
+button {
+  margin-right: 20px;
+}
+.c-app__notify {
+  position: absolute;
+  margin: auto;
+  padding: 8px;
+  left: 0;
+  right: 0;
+  top: -150px;
+  width: 150px;
+  height: 30px;
+  background-color: lightgrey;
+  transition: top .5s;
+}
+
+.c-app__notify.updated {
+  top: 0;
+}
+
+
+.c-app__tile {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 10px;
+  vertical-align: top;
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 10px;
+}
+
+.c-app__tile:hover button {
+    display: block;
+}
+
+.c-app__tile-date {
+  position: absolute;
+  left: 10px;
+  bottom: 0;
+  font-size: 11px;
+}
+
+.c-app__tile-title {
+  font-size: 12px;
+}
+
+.c-app__tile-body {
+  height: 50px;
+  resize: none;
+}
+
+.c-app__tile-counter {
+  color: red;
+  margin-top: -5px;
+  font-size: 11px;
+
+}
+
+.c-app__tile-deletebtn {
+  position: absolute;
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  bottom: 5px;
+  right: 5px;
+  width: 20px;
+}
+
+.c-app__tile-deletebtn img {
+  width: 100%;
+}
+
+button {
+  display: none;
+}
+
+
+input[type=text], textarea {
+  width: 100%;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+}
+
+input[type=text]:focus, textarea:focus {
+  padding: 0;
+  outline: none !important;
+  border: 1px solid lightgrey;
+}
